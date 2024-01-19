@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: linear-gradient(to right, #3494E6, #EC6EAD);
+      color: #333;
+    }
+
+    header {
+      background-color: #1D1E22;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      border-bottom: 2px solid #EC6EAD;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .portfolio-item {
+      margin-bottom: 20px;
+    }
+
+    .portfolio-item img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .details {
+      display: none;
+      margin-top: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #EC6EAD;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #FFA07A;
+    }
+
+    h2 {
+      color: #EC6EAD;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: #3494E6;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #1D1E22;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>JHURIE AIAN MANDAPAT</h1>
+    <p>WEB DEVELOPER</p>
+  </header>
+
+  <section class="container">
+    <div class="portfolio-item">
+      <img src="1.jpg" alt="Project 1">
+      <h2>CAPSTONE PROJECT</h2>
+      <p>This project is one major problem in Baguio City is limited parking, leading to traffic jams. This system could aim to optimize parking space usage and facilitate easier parking, thereby reducing congestion and Data analysis and reporting. The system could collect and analyze data on parking usage and trends, providing valuable insights for improving parking management.</p>
+      <a href="#" class="btn" onclick="toggleDetails('project1-details')">View Details</a>
+      <div id="project1-details" class="details">
+      </div>
+    </div>
+
+  <section class="container">
+    <h2>About Me</h2>
+    <p>Hello, I am Jhurie Aian, a dedicated and passionate individual pursuing a Bachelor of Science in Information Technology (BSIT). As a student in the field of IT, I am deeply fascinated by the dynamic intersection of technology and business. My academic journey has equipped me with a solid foundation in various IT disciplines, including programming, database management, network administration, and cybersecurity.</p>
+  </section>
+
+  <section class="container">
+    <h2>Skills</h2>
+    <ul>
+      <li>Problem Solving</li>
+      <li>Web Development</li>
+      <li>Communication and Collaboration</li>
+    </ul>
+  </section>
+
+  <section class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">mandapatjhurie2@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/JMANDAPAT" target="_blank">github.com/JMANDAPAT</a></p>
+  </section>
+
+  <script>
+    function toggleDetails(projectId) {
+      var details = document.getElementById(projectId);
+      if (details.style.display === "none" || details.style.display === "") {
+        details.style.display = "block";
+      } else {
+        details.style.display = "none";
+      }
+    }
+
+
+
+  </script>
+
+</body>
+</html>

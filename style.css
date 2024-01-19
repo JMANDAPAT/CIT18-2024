@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8; 
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#about-me {
+    background-color: #f9e0cf; 
+}
+
+#education {
+    background-color: #cfe2f3;
+}
+
+#experience {
+    background-color: #d1fbd0; 
+}
+
+#skills{
+    background-color: #f5d6fc; 
+}
+
+#container{
+    background-color: #FFFFCC; 
+}
+
+section:hover {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+transform: scale(1.02);
+transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
